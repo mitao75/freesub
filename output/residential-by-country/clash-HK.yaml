@@ -6,9 +6,9 @@ log-level: info
 proxies:
 - name: 🇭🇰 中国香港 (Hong Kong) 01 (家宽) - xiaohe
   type: vless
-  server: e283de09-tla000-u1vxv2-v3c2.hk3.hyhuawei.com
+  server: 26a9920c-tla000-tyt0e8-1mh67.hk3.hyhuawei.com
   port: 443
-  uuid: 5f091cbe-fb34-11ea-9777-f23c9164ca5d
+  uuid: e1c7fbbc-96b6-11ef-8563-f23c913c8d2b
   udp: true
   tls: true
   skip-cert-verify: true
