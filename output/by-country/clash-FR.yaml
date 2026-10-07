@@ -18,40 +18,42 @@ proxies:
   client-fingerprint: chrome
 - name: 🇫🇷 法国 (France) 02 - xiaohe
   type: vless
-  server: 81.95.4.189
+  server: 104.21.72.47
   port: 443
-  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
+  uuid: 50414e45-4c5f-5a45-5553-ef859652a80e
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: bab-6.site
+  servername: trex-panel-nubj0s.samifakor.workers.dev
   network: ws
   ws-opts:
-    path: /vws/
+    path: /stream/TrexBridge/ef859652a80e
     headers:
-      Host: bab-6.site
+      Host: trex-panel-nubj0s.samifakor.workers.dev
 - name: 🇫🇷 法国 (France) 03 - xiaohe
-  type: vless
-  server: 51.77.217.70
-  port: 2053
-  uuid: bf16ee0c-8b3c-41e4-ab3a-8b48033c404e
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: g63cT3uI0Y5iUtj3m__RYz7nmR1eIK4AYikdnZCl63w
-  servername: www.apple.com
-  client-fingerprint: firefox
-- name: 🇫🇷 法国 (France) 04 - xiaohe
   type: ss
   server: 51.255.13.232
   port: 8388
   cipher: chacha20-ietf-poly1305
   password: BqnqToih0PbU
   udp: true
+- name: 🇫🇷 法国 (France) 04 - xiaohe
+  type: vless
+  server: 172.67.193.182
+  port: 443
+  uuid: 50414e45-4c5f-5a45-5553-ef859652a80e
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: trex-panel-nubj0s.samifakor.workers.dev
+  network: ws
+  ws-opts:
+    path: /stream/TrexBridge/ef859652a80e
+    headers:
+      Host: trex-panel-nubj0s.samifakor.workers.dev
 - name: 🇫🇷 法国 (France) 05 - xiaohe
   type: vless
-  server: 149.50.105.60
+  server: 81.95.4.189
   port: 443
   uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
   udp: true
@@ -65,18 +67,18 @@ proxies:
       Host: bab-6.site
 - name: 🇫🇷 法国 (France) 06 - xiaohe
   type: vless
-  server: 104.21.84.30
-  port: 2053
-  uuid: 9d672694-c146-422e-b3b5-3717a38a0fcc
+  server: 149.202.58.99
+  port: 443
+  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: fr.api-music-fa.com
+  servername: bab-6.site
   network: ws
   ws-opts:
-    path: /api/voip/updates/static/fr2035
+    path: /vws/
     headers:
-      Host: fr.api-music-fa.com
+      Host: 149.202.58.99
 - name: 🇫🇷 法国 (France) 07 - xiaohe
   type: vless
   server: 54.37.136.194
@@ -88,10 +90,10 @@ proxies:
   reality-opts:
     public-key: Vemd9Jjk5xKO8qSC3g8VVagwcb4J1BcTvp86CswQC0A
   servername: www.cloudflare.com
-  client-fingerprint: firefox
+  client-fingerprint: chrome
 - name: 🇫🇷 法国 (France) 08 - xiaohe
   type: vless
-  server: 149.202.58.99
+  server: 81.95.4.189
   port: 443
   uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
   udp: true
@@ -119,7 +121,7 @@ proxies:
       Host: fr.api-music-fa.com
 - name: 🇫🇷 法国 (France) 10 - xiaohe
   type: vless
-  server: 149.50.105.60
+  server: 149.202.58.99
   port: 443
   uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
   udp: true
@@ -133,21 +135,21 @@ proxies:
       Host: bab-6.site
 - name: 🇫🇷 法国 (France) 11 - xiaohe
   type: vless
-  server: 81.95.4.189
-  port: 443
-  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
+  server: 188.114.96.3
+  port: 2087
+  uuid: 756e8f39-04e8-436d-b5c6-905d37d9562c
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: bab-6.site
+  servername: Ez-98919A.MOtoRicb.Workers.DeV
   network: ws
   ws-opts:
-    path: /vws/
+    path: /eyJqdW5rIjoiR1BxUFhYR0w1TlBLMTRsIiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcm94eWlwIiwicGFuZWxJUHMiOltdfQ
     headers:
-      Host: bab-6.site
+      Host: ez-98919a.motoricb.workers.dev
 - name: 🇫🇷 法国 (France) 12 - xiaohe
   type: vless
-  server: 81.95.4.189
+  server: 149.50.105.60
   port: 443
   uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
   udp: true
@@ -161,37 +163,46 @@ proxies:
       Host: bab-6.site
 - name: 🇫🇷 法国 (France) 13 - xiaohe
   type: vless
-  server: 54.37.136.194
+  server: 104.21.84.30
   port: 2053
-  uuid: e8a432c8-5d84-49a5-b822-67ed761a58f9
+  uuid: 9d672694-c146-422e-b3b5-3717a38a0fcc
   udp: true
   tls: true
   skip-cert-verify: true
-  reality-opts:
-    public-key: Vemd9Jjk5xKO8qSC3g8VVagwcb4J1BcTvp86CswQC0A
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-- name: 🇫🇷 法国 (France) 14 - xiaohe
-  type: ss
-  server: 51.255.13.232
-  port: 8388
-  cipher: chacha20-ietf-poly1305
-  password: BqnqToih0PbU
-  udp: true
-- name: 🇫🇷 法国 (France) 15 - xiaohe
-  type: vless
-  server: 149.202.58.99
-  port: 443
-  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: bab-6.site
+  servername: fr.api-music-fa.com
   network: ws
   ws-opts:
-    path: /vws/
+    path: /api/voip/updates/static/fr2035
     headers:
-      Host: 149.202.58.99
+      Host: fr.api-music-fa.com
+- name: 🇫🇷 法国 (France) 14 - xiaohe
+  type: vless
+  server: 172.67.175.23
+  port: 443
+  uuid: 50414e45-4c5f-5a45-5553-ef859652a80e
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: trex-panel-nubj0s.samifakor.workers.dev
+  network: ws
+  ws-opts:
+    path: /stream/TrexBridge/ef859652a80e
+    headers:
+      Host: trex-panel-nubj0s.samifakor.workers.dev
+- name: 🇫🇷 法国 (France) 15 - xiaohe
+  type: vless
+  server: 172.67.152.162
+  port: 443
+  uuid: 07f9bc85-613f-4a33-8da1-191973c43c0a
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: app-q0zc4t.user-4gfyh5.workers.dev
+  network: ws
+  ws-opts:
+    path: /cmh
+    headers:
+      Host: app-q0zc4t.user-4gfyh5.workers.dev
 - name: 🇫🇷 法国 (France) 16 - xiaohe
   type: vless
   server: 149.202.58.99
@@ -207,32 +218,40 @@ proxies:
     headers:
       Host: 149.202.58.99
 - name: 🇫🇷 法国 (France) 17 - xiaohe
+  type: vmess
+  server: 162.19.204.71
+  port: 1234
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ''
+- name: 🇫🇷 法国 (France) 18 - xiaohe
   type: vless
-  server: 54.37.136.194
+  server: 51.77.217.70
   port: 2053
-  uuid: e8a432c8-5d84-49a5-b822-67ed761a58f9
+  uuid: bf16ee0c-8b3c-41e4-ab3a-8b48033c404e
   udp: true
   tls: true
   skip-cert-verify: true
   reality-opts:
-    public-key: Vemd9Jjk5xKO8qSC3g8VVagwcb4J1BcTvp86CswQC0A
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
-- name: 🇫🇷 法国 (France) 18 - xiaohe
-  type: vless
-  server: 149.202.58.99
-  port: 443
-  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
+    public-key: g63cT3uI0Y5iUtj3m__RYz7nmR1eIK4AYikdnZCl63w
+  servername: www.apple.com
+  client-fingerprint: firefox
+- name: 🇫🇷 法国 (France) 19 - xiaohe
+  type: vmess
+  server: 141.95.65.9
+  port: 1234
+  uuid: 5c040f1d-45db-43bd-8d46-e4950e433735
+  alterId: 0
+  cipher: auto
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: bab-6.site
-  network: ws
-  ws-opts:
-    path: /vws/
-    headers:
-      Host: 149.202.58.99
-- name: 🇫🇷 法国 (France) 19 - xiaohe
+  servername: ''
+- name: 🇫🇷 法国 (France) 20 - xiaohe
   type: vless
   server: 172.67.185.98
   port: 2053
@@ -246,7 +265,7 @@ proxies:
     path: /api/voip/updates/static/fr2035
     headers:
       Host: fr.api-music-fa.com
-- name: 🇫🇷 法国 (France) 20 - xiaohe
+- name: 🇫🇷 法国 (France) 21 - xiaohe
   type: vmess
   server: 162.19.204.71
   port: 1234
@@ -257,21 +276,63 @@ proxies:
   tls: true
   skip-cert-verify: true
   servername: ''
-- name: 🇫🇷 法国 (France) 21 - xiaohe
+- name: 🇫🇷 法国 (France) 22 - xiaohe
   type: vless
-  server: 104.21.84.30
+  server: 172.67.162.201
   port: 2053
-  uuid: 9d672694-c146-422e-b3b5-3717a38a0fcc
+  uuid: dc1e9f00-c064-4870-9bfc-463db50257d7
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: fr.api-music-fa.com
+  servername: RESTlESs-MoON-dD68RidaM-tOo-In-MAmLEkat.hGtghFF67tdFHUt3.WORkerS.DEV
   network: ws
   ws-opts:
-    path: /api/voip/updates/static/fr2035
+    path: /eyJqdW5rIjoicVkwaG9XUUQyUDhzRkZ5UiIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0=
     headers:
-      Host: fr.api-music-fa.com
-- name: 🇫🇷 法国 (France) 22 - xiaohe
+      Host: restless-moon-dd68ridam-too-in-mamlekat.hgtghff67tdfhut3.workers.dev
+- name: 🇫🇷 法国 (France) 23 - xiaohe
+  type: vless
+  server: 162.159.152.4
+  port: 443
+  uuid: f2a73750-3087-48ff-a763-1348c15dce68
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: rayan-007.maxima.dpdns.org
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: rayan-007.maxima.dpdns.org
+- name: 🇫🇷 法国 (France) 24 - xiaohe
+  type: vless
+  server: 81.95.4.189
+  port: 443
+  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: bab-6.site
+  network: ws
+  ws-opts:
+    path: /vws/
+    headers:
+      Host: bab-6.site
+- name: 🇫🇷 法国 (France) 25 - xiaohe
+  type: vless
+  server: 104.21.88.201
+  port: 443
+  uuid: 07f9bc85-613f-4a33-8da1-191973c43c0a
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: app-q0zc4t.user-4gfyh5.workers.dev
+  network: ws
+  ws-opts:
+    path: /cmh
+    headers:
+      Host: app-q0zc4t.user-4gfyh5.workers.dev
+- name: 🇫🇷 法国 (France) 26 - xiaohe
   type: vless
   server: 8.47.69.0
   port: 2053
@@ -285,6 +346,90 @@ proxies:
     path: /api/voip/updates/static/fr2035
     headers:
       Host: fr.api-music-fa.com
+- name: 🇫🇷 法国 (France) 27 - xiaohe
+  type: vless
+  server: 85.192.60.46
+  port: 443
+  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: bab-6.site
+  network: ws
+  ws-opts:
+    path: /vws/
+    headers:
+      Host: bab-6.site
+- name: 🇫🇷 法国 (France) 28 - xiaohe
+  type: vless
+  server: 149.202.58.99
+  port: 443
+  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: bab-6.site
+  network: ws
+  ws-opts:
+    path: /vws/
+    headers:
+      Host: 149.202.58.99
+- name: 🇫🇷 法国 (France) 29 - xiaohe
+  type: vless
+  server: 104.21.84.30
+  port: 2053
+  uuid: 9d672694-c146-422e-b3b5-3717a38a0fcc
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: fr.api-music-fa.com
+  network: ws
+  ws-opts:
+    path: /api/voip/updates/static/fr2035
+    headers:
+      Host: fr.api-music-fa.com
+- name: 🇫🇷 法国 (France) 30 - xiaohe
+  type: vless
+  server: 149.50.105.60
+  port: 443
+  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: bab-6.site
+  network: ws
+  ws-opts:
+    path: /vws/
+    headers:
+      Host: bab-6.site
+- name: 🇫🇷 法国 (France) 31 - xiaohe
+  type: vless
+  server: 149.50.105.60
+  port: 443
+  uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: bab-6.site
+  network: ws
+  ws-opts:
+    path: /vws/
+    headers:
+      Host: bab-6.site
+- name: 🇫🇷 法国 (France) 32 - xiaohe
+  type: vless
+  server: 104.20.17.127
+  port: 443
+  uuid: 50414e45-4c5f-5a45-5553-ef859652a80e
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: trex-panel-nubj0s.samifakor.workers.dev
+  network: ws
+  ws-opts:
+    path: /stream/TrexBridge/ef859652a80e
+    headers:
+      Host: trex-panel-nubj0s.samifakor.workers.dev
 proxy-groups:
 - name: PROXIES
   type: select
@@ -312,6 +457,16 @@ proxy-groups:
   - 🇫🇷 法国 (France) 20 - xiaohe
   - 🇫🇷 法国 (France) 21 - xiaohe
   - 🇫🇷 法国 (France) 22 - xiaohe
+  - 🇫🇷 法国 (France) 23 - xiaohe
+  - 🇫🇷 法国 (France) 24 - xiaohe
+  - 🇫🇷 法国 (France) 25 - xiaohe
+  - 🇫🇷 法国 (France) 26 - xiaohe
+  - 🇫🇷 法国 (France) 27 - xiaohe
+  - 🇫🇷 法国 (France) 28 - xiaohe
+  - 🇫🇷 法国 (France) 29 - xiaohe
+  - 🇫🇷 法国 (France) 30 - xiaohe
+  - 🇫🇷 法国 (France) 31 - xiaohe
+  - 🇫🇷 法国 (France) 32 - xiaohe
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -339,5 +494,15 @@ proxy-groups:
   - 🇫🇷 法国 (France) 20 - xiaohe
   - 🇫🇷 法国 (France) 21 - xiaohe
   - 🇫🇷 法国 (France) 22 - xiaohe
+  - 🇫🇷 法国 (France) 23 - xiaohe
+  - 🇫🇷 法国 (France) 24 - xiaohe
+  - 🇫🇷 法国 (France) 25 - xiaohe
+  - 🇫🇷 法国 (France) 26 - xiaohe
+  - 🇫🇷 法国 (France) 27 - xiaohe
+  - 🇫🇷 法国 (France) 28 - xiaohe
+  - 🇫🇷 法国 (France) 29 - xiaohe
+  - 🇫🇷 法国 (France) 30 - xiaohe
+  - 🇫🇷 法国 (France) 31 - xiaohe
+  - 🇫🇷 法国 (France) 32 - xiaohe
 rules:
 - MATCH,PROXIES
